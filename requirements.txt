@@ -1,0 +1,9 @@
+# Direct dependencies, tested on Windows / Python 3.12
+numpy==2.3.5
+pandas==3.0.1
+scipy==1.18.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
+statsmodels==0.15.0
+torch==2.14.1
+pypdf==6.10.0
