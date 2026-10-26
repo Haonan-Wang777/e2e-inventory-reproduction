@@ -1,0 +1,97 @@
+{
+  "scope": "Released 500-pair-per-group subset; not full paper dataset",
+  "python": "3.12.14",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "inputs": {
+    "order_e2e_pre_500.csv": {
+      "rows": 500,
+      "sha256": "f5c6a3f3c3dbc25394f8d19d22d1d8c94cabb705d0e47efafabc8f3bac3ce5a8",
+      "missing_cells": 0
+    },
+    "order_e2e_post_500.csv": {
+      "rows": 500,
+      "sha256": "f7afe2a31a262f2ca29671c54ffc428dfeff716e35d23f236c987bddc7fdf925",
+      "missing_cells": 0
+    },
+    "order_jd_pre_500.csv": {
+      "rows": 500,
+      "sha256": "d9cb5c9f7b73ab68630d0b25135df8a2ca650122e4d83f15a0e1bbdad131b209",
+      "missing_cells": 0
+    },
+    "order_jd_post_500.csv": {
+      "rows": 500,
+      "sha256": "40021c666a3e8c3cf8a8a1e36868bdc2de8b8626a04c5961b4976afc0d703e07",
+      "missing_cells": 0
+    }
+  },
+  "notebook_checks": 55,
+  "notebook_checks_passed": 45,
+  "supplementary_specifications": {
+    "cost_sensitivity": {
+      "h": 12,
+      "b": 88,
+      "scope": "Same public subset, notebook inventory-path convention; paper field cost rates substituted"
+    },
+    "OLS_with_intercept": {
+      "h": 1,
+      "b": 9,
+      "scope": "Same public subset and covariates; intercept added to match paper formula, not notebook execution"
+    }
+  },
+  "all_notebook_checks_passed": false,
+  "matching": {
+    "treatment_n": 500,
+    "candidate_n": 55333,
+    "selected_n": 500,
+    "unique_selected_candidates": 424,
+    "with_replacement": true,
+    "maximum_covariate_distance": 0.2172043010000002,
+    "mean_covariate_distance": 0.004393605148000004,
+    "logistic_intercept": [
+      -3.8603080742446796
+    ],
+    "logistic_coefficients": [
+      [
+        -0.0024730718246517417,
+        -0.0873406868810629
+      ]
+    ],
+    "logistic_iterations": [
+      16
+    ],
+    "matching_definition": "NearestNeighbors on unstandardized ave_demand, vlt_num and treatment indicator, as notebook; not on propensity score.",
+    "identity_limitation": "Anonymized candidate indices cannot be joined reliably to the separately published 500 control trajectories; no identity equivalence claimed.",
+    "plot_note": "Histogram version of the Figure 3 diagnostic, not a pixel reproduction of seaborn distplot/KDE."
+  },
+  "historical_cache_mismatches": [
+    "did_ttest_notebook.holding_cost.p_value",
+    "did_ttest_notebook.holding_cost.t_statistic",
+    "did_ttest_notebook.stockout_cost.p_value",
+    "did_ttest_notebook.stockout_cost.t_statistic",
+    "did_ttest_notebook.stockout_ratio.p_value",
+    "did_ttest_notebook.stockout_ratio.t_statistic",
+    "did_ttest_notebook.total_cost.p_value",
+    "did_ttest_notebook.total_cost.t_statistic",
+    "did_ttest_notebook.turnover.p_value",
+    "did_ttest_notebook.turnover.t_statistic"
+  ],
+  "unexpected_historical_cache_mismatches": [],
+  "cache_audit_note": "Historical DiD t/p outputs differ from executing the current public CSV and reviewed original notebook. Independent source-equivalence validation is separate; no algorithm or tolerance is changed to force agreement.",
+  "definitions": {
+    "h": 1,
+    "b": 9,
+    "cost_inventory_indices": "0..T-2 inclusive",
+    "stockout_denominator": "T, including terminal inventory point",
+    "turnover": "max(0, ave_inv/ave_demand) except notebook DID uses raw post-control turnover",
+    "OLS": "e2e, vlt, d; no intercept; ordinary nonrobust standard errors",
+    "t_test": "scipy.stats.ttest_ind(equal_var=True), two-sided",
+    "DID_test": "independent t-test between row-wise treatment-minus-control differences in post and pre; reproduces notebook, not a clustered panel DID estimator"
+  }
+}

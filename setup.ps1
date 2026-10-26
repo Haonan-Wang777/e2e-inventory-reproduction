@@ -2,9 +2,7 @@ param([string]$Python = '')
 $ErrorActionPreference = 'Stop'
 Set-Location -LiteralPath $PSScriptRoot
 if (-not $Python) {
-    $bundledPython = 'C:\Users\Haonan Wang\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
-    if (Test-Path -LiteralPath $bundledPython) { $Python = $bundledPython }
-    else { $Python = (Get-Command python -ErrorAction Stop).Source }
+    $Python = (Get-Command python -ErrorAction Stop).Source
 }
 & $Python -c 'import sys; assert sys.version_info >= (3, 12), "Python 3.12 or later is required"'
 if ($LASTEXITCODE -ne 0) { throw 'Pass a Python 3.12 executable using -Python.' }

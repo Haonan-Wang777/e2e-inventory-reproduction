@@ -11,9 +11,12 @@
 - [论文实验规格](paper/experiment_spec.md)
 - [模型审计](paper/model_audit.md)
 
-## 运行
+## 数据与运行
 
-当前电脑直接在此文件夹运行 `./run_reproduction.ps1`。只做公开数据重算可用 `./run_reproduction.ps1 -SkipDemo`。
+本仓库发布复现代码、派生结果和演示权重，不包含作者原始数据包或论文 PDF。直接阅读报告不需要安装环境。重新计算前，请按 [数据获取说明](DATA_ACCESS.md) 准备 `author_package/`，再安装 Python 3.12 环境。
+
+
+在已准备作者数据和依赖的电脑上，在项目文件夹运行 `./run_reproduction.ps1`。只做公开数据重算可用 `./run_reproduction.ps1 -SkipDemo`。
 
 其他电脑先用 Python 3.12 执行 `setup.ps1 -Python "python.exe的绝对路径"`。直接Python入口为 `.venv/Scripts/python.exe run_reproduction.py`。
 

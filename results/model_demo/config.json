@@ -1,0 +1,83 @@
+{
+  "status": "mechanism_demonstration_only_not_original_training_replication",
+  "seed": 4564,
+  "epochs": 100,
+  "history_days": 60,
+  "prediction_days": 21,
+  "hidden_size": 50,
+  "context_size": 8,
+  "bridge_size": 8,
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "lead_layers": [
+    50,
+    20
+  ],
+  "integration_layers": [
+    100,
+    100
+  ],
+  "dropout": 0.2,
+  "batch_size": 64,
+  "optimizer": "SGD",
+  "learning_rate": 0.001,
+  "momentum": 0.85,
+  "learning_rate_decay": 0.0001,
+  "weight_initialization": "Gaussian(0,0.01); biases=0",
+  "decision_loss": "MSE on normalized theorem-1 order labels; chosen because exact loss was withheld",
+  "lead_loss_weight": 0.01,
+  "demand_loss_weight": 0.1,
+  "b": 9.0,
+  "h": 1.0,
+  "assumed_lead_days": 3,
+  "assumed_review_days": 14,
+  "observed_data": "Released five sales series only; no released order/stock table was joined",
+  "synthetic_conditions": [
+    "Daily hypothetical order origins (overlapping, correlated examples)",
+    "Fixed lead time=3 days; fixed review/arrival interval=14 days",
+    "Starting stock=past28day mean*(lead+review)*deterministic factor in [0.3,1.2]",
+    "Backlogging convention before arrival: I_arrival=I_order-prearrival demand",
+    "Inventory cost evaluated only from arrival to next arrival; prearrival cost independent of new order",
+    "Two calendar covariates are weekly sine/cosine, replacing confidential exogenous features",
+    "Five SKU one-hot inputs; constant synthetic lead features; no real lead prediction claim"
+  ],
+  "limits": [
+    "Cannot reproduce the 24,333-SKU 132-feature training experiment",
+    "Not an operational forecast or causal effect estimate",
+    "Scaling and all model selection use training/validation only",
+    "Shared past history is permitted; all future labels stay within their split",
+    "Demand quantile crossing is possible; outputs are not used as calibrated probabilities"
+  ],
+  "torch_version": "2.14.1+cpu",
+  "device": "cpu",
+  "data_shape": [
+    5,
+    457
+  ],
+  "split_boundaries_zero_based": {
+    "train_end_exclusive": 274,
+    "validation_end_exclusive": 365,
+    "test_end_exclusive": 457
+  },
+  "scalers_fit_on_training_only": {
+    "log1p_demand_max": 6.3561076606958915,
+    "order_mean": 134.03233337402344,
+    "training_daily_mean": 28.306569343065693
+  },
+  "sample_counts": {
+    "train": 970,
+    "validation": 355,
+    "test": 360
+  },
+  "sku_ids": [
+    "1111111#1",
+    "2222222#1",
+    "3333333#1",
+    "4444444#1",
+    "5555555#1"
+  ],
+  "parameter_count": 81785
+}

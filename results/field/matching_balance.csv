@@ -1,0 +1,3 @@
+feature,treatment_mean,candidate_mean,matched_mean,standardized_mean_difference_before,standardized_mean_difference_after_fixed_denominator
+ave_demand,2.217962237202,2.148803004866915,2.2184537634379997,0.010790401381368874,-7.668918807853507e-05
+vlt_num,8.484,11.120073012488026,8.484,-0.41861266947432124,0.0

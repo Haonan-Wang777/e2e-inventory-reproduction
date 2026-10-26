@@ -1,0 +1,150 @@
+{
+  "first_batch": {
+    "demand.encoder.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 3.456952254055068e-05
+    },
+    "demand.encoder.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.001983216032385826
+    },
+    "demand.lstm.weight_ih_l0": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 1.308588616666384e-05
+    },
+    "demand.lstm.weight_hh_l0": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 2.286668404849479e-06
+    },
+    "demand.lstm.bias_ih_l0": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 2.8643555197049864e-05
+    },
+    "demand.lstm.bias_hh_l0": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 2.8643555197049864e-05
+    },
+    "demand.global_mlp.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.00019255210645496845
+    },
+    "demand.global_mlp.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.0011172089725732803
+    },
+    "demand.local_mlp.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.35696929693222046
+    },
+    "demand.local_mlp.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.04461804777383804
+    },
+    "demand.bridge_mlp.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.002459484152495861
+    },
+    "demand.bridge_mlp.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.0003049559600185603
+    },
+    "lead_hidden.0.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 4.575156344799325e-05
+    },
+    "lead_hidden.0.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 3.0220004191505723e-05
+    },
+    "lead_hidden.3.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 8.333752339240164e-05
+    },
+    "lead_hidden.3.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.00038554478669539094
+    },
+    "lead_output.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 2.0143346773693338e-05
+    },
+    "lead_output.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.005999918095767498
+    },
+    "integration.0.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.03447183966636658
+    },
+    "integration.0.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.006915707141160965
+    },
+    "integration.3.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.0931042805314064
+    },
+    "integration.3.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.11496984958648682
+    },
+    "integration.6.weight": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.021240899339318275
+    },
+    "integration.6.bias": {
+      "has_gradient": true,
+      "finite": true,
+      "absolute_sum": 0.3360437750816345
+    }
+  },
+  "maximum_parameter_updates": {
+    "demand.encoder.weight": 0.00023670867085456848,
+    "demand.encoder.bias": 0.002189932158216834,
+    "demand.lstm.weight_ih_l0": 4.011206328868866e-05,
+    "demand.lstm.weight_hh_l0": 3.087916411459446e-07,
+    "demand.lstm.bias_ih_l0": 6.67337590130046e-05,
+    "demand.lstm.bias_hh_l0": 6.67337590130046e-05,
+    "demand.global_mlp.weight": 8.760485798120499e-06,
+    "demand.global_mlp.bias": 0.0018866929458454251,
+    "demand.local_mlp.weight": 0.0647931694984436,
+    "demand.local_mlp.bias": 0.1295388638973236,
+    "demand.bridge_mlp.weight": 0.00013573793694376945,
+    "demand.bridge_mlp.bias": 0.00027127843350172043,
+    "lead_hidden.0.weight": 2.0787585526704788e-05,
+    "lead_hidden.0.bias": 3.47942223015707e-05,
+    "lead_hidden.3.weight": 1.2036645784974098e-05,
+    "lead_hidden.3.bias": 0.0006583313806913793,
+    "lead_output.weight": 4.478171467781067e-05,
+    "lead_output.bias": 0.0572349838912487,
+    "integration.0.weight": 0.009523654356598854,
+    "integration.0.bias": 0.001670924248173833,
+    "integration.3.weight": 0.0027834060601890087,
+    "integration.3.bias": 0.009845849126577377,
+    "integration.6.weight": 0.013358988799154758,
+    "integration.6.bias": 0.5278204083442688
+  }
+}

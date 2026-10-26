@@ -1,0 +1,31 @@
+{
+  "mode": "recompute",
+  "demo_requested": false,
+  "stages": [
+    {
+      "stage": "offline",
+      "exit_code": 0,
+      "seconds": 7.533037299988791
+    },
+    {
+      "stage": "field",
+      "exit_code": 0,
+      "seconds": 8.131434299983084
+    },
+    {
+      "stage": "source_equivalence",
+      "exit_code": 0,
+      "seconds": 16.75544410001021
+    },
+    {
+      "stage": "provenance",
+      "exit_code": 0,
+      "seconds": 3.4595709999557585
+    },
+    {
+      "stage": "report",
+      "exit_code": 0,
+      "seconds": 3.4490008000284433
+    }
+  ]
+}

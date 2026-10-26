@@ -1,0 +1,77 @@
+{
+  "status": "mechanism_demonstration_only_not_original_training_replication",
+  "best_validation_epoch": 37,
+  "training_seconds": 30.20939360000193,
+  "initial_losses": {
+    "train": {
+      "total": 2.357621060818741,
+      "decision": 2.3355428964206855,
+      "lead": 0.08999796134909403,
+      "demand_pinball": 0.2117822813465423
+    },
+    "validation": {
+      "total": 2.978267161023449,
+      "decision": 2.9621855051584647,
+      "lead": 0.08999796404804981,
+      "demand_pinball": 0.1518168814795118
+    },
+    "test": {
+      "total": 1.6337507161829206,
+      "decision": 1.6172862920496198,
+      "lead": 0.08999795615673065,
+      "demand_pinball": 0.15564368218183516
+    }
+  },
+  "best_checkpoint_losses": {
+    "train": {
+      "total": 2.250975118838635,
+      "decision": 2.2418981928186317,
+      "lead": 0.07697905958006063,
+      "demand_pinball": 0.08307081191349275
+    },
+    "validation": {
+      "total": 2.9091075537909923,
+      "decision": 2.9011463845279857,
+      "lead": 0.07697906206611177,
+      "demand_pinball": 0.07191373506482218
+    },
+    "test": {
+      "total": 1.6662151548597548,
+      "decision": 1.658347569571601,
+      "lead": 0.07697906013992098,
+      "demand_pinball": 0.07097743592328495
+    }
+  },
+  "test_order_MAE": 140.19983598773982,
+  "test_order_RMSE": 172.60261384464306,
+  "mean_hypothetical_interval_cost": {
+    "model": {
+      "holding": 2637.029476682529,
+      "shortage": 2511.0809967990795,
+      "total": 5148.110473481609
+    },
+    "past_mean": {
+      "holding": 2006.2585852465986,
+      "shortage": 1743.2980707908166,
+      "total": 3749.5566560374155
+    },
+    "oracle": {
+      "holding": 1970.7393962585033,
+      "shortage": 128.33286989795917,
+      "total": 2099.0722661564623
+    }
+  },
+  "checks": {
+    "theorem_label_bruteforce": {
+      "cases": 250,
+      "maximum_objective_gap": 0.0,
+      "passed": true
+    },
+    "future_labels_disjoint": true,
+    "checkpoint_max_prediction_difference": 0.0,
+    "oracle_lower_bound_max_violation": 0.0,
+    "all_gradients_present_and_finite": true,
+    "at_least_one_parameter_updated": true,
+    "training_total_loss_decreased": true
+  }
+}

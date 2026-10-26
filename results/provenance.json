@@ -1,0 +1,208 @@
+{
+  "created_at": "2026-10-25T02:43:10.354112+08:00",
+  "archive": {
+    "path": "External supplementary ZIP; not redistributed",
+    "bytes": 1827690,
+    "sha256": "2e5a91e9924a234e91645ff9f117499055f3500f32ffb3b41bc0b46716b7f280",
+    "available_for_recheck": false
+  },
+  "author_files": [
+    {
+      "file": "Field_experiments_summary.ipynb",
+      "bytes": 34749,
+      "sha256": "fefc36407f0b06903c3d943529dd89eca5792af2bd9b8e235356bb10c13bacf1",
+      "identical_to_archive": true
+    },
+    {
+      "file": "control_demand_vlt.csv",
+      "bytes": 1400821,
+      "sha256": "4ef7baeb07d7a7ec14ddf1c4e16e00c87e0b7e22db0c3de59b93423c4b97a923",
+      "identical_to_archive": true
+    },
+    {
+      "file": "order_jd_post_500.csv",
+      "bytes": 178528,
+      "sha256": "40021c666a3e8c3cf8a8a1e36868bdc2de8b8626a04c5961b4976afc0d703e07",
+      "identical_to_archive": true
+    },
+    {
+      "file": "order_e2e_post_500.csv",
+      "bytes": 140281,
+      "sha256": "f7afe2a31a262f2ca29671c54ffc428dfeff716e35d23f236c987bddc7fdf925",
+      "identical_to_archive": true
+    },
+    {
+      "file": "original_E2E_section4.pdf",
+      "bytes": 70964,
+      "sha256": "60affbc92f2a586cc60c8e22add0517d610883915383fcfbc3950a755d6b5fa8",
+      "identical_to_archive": true
+    },
+    {
+      "file": "original-field-experiment2.pdf",
+      "bytes": 42069,
+      "sha256": "cc5e06ccefc8ed0cf3e6f3310e0c37e9854458dc342e993e9bbd616e612ea7bb",
+      "identical_to_archive": true
+    },
+    {
+      "file": "README-original-logs.docx",
+      "bytes": 17321,
+      "sha256": "81bed5b76e41d0ca64a385fe8882c504bab6002ca1604f0726f0a9f523bb1bad",
+      "identical_to_archive": true
+    },
+    {
+      "file": "original-field-experiment.pdf",
+      "bytes": 105350,
+      "sha256": "8044119b07287cb554453d54c6383c5aa4f28742adcde324691da1770cec4bce",
+      "identical_to_archive": true
+    },
+    {
+      "file": "order_jd_pre_500.csv",
+      "bytes": 141601,
+      "sha256": "d9cb5c9f7b73ab68630d0b25135df8a2ca650122e4d83f15a0e1bbdad131b209",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E_Section4.ipynb",
+      "bytes": 12674,
+      "sha256": "dcdb4d0366b512df9ef8cd8578825cf34367c2a0075fcfe27c08e560d0f9fc87",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E_Section4.md",
+      "bytes": 7502,
+      "sha256": "806f5e3ae1c4a2bb7e2ccaa5ba7f972f67925769aaeb47434ca3949822cf11a9",
+      "identical_to_archive": true
+    },
+    {
+      "file": "df_test.csv",
+      "bytes": 2455165,
+      "sha256": "491996c425d250a2ab2b864b18c2c617c97e8249ffba403d6aed1c5e5a20208e",
+      "identical_to_archive": true
+    },
+    {
+      "file": "Propensity_score_matching.ipynb",
+      "bytes": 45126,
+      "sha256": "a31ec96382226bd3bb29c13850caddbb3fbfacf7ca6be35cc44bcffa2549e8b2",
+      "identical_to_archive": true
+    },
+    {
+      "file": "README.docx",
+      "bytes": 26702,
+      "sha256": "9b0852f926b7e94faac2c4958258608ae38568148b5f020a892f1fb9894932ff",
+      "identical_to_archive": true
+    },
+    {
+      "file": "order_e2e_pre_500.csv",
+      "bytes": 189240,
+      "sha256": "f5c6a3f3c3dbc25394f8d19d22d1d8c94cabb705d0e47efafabc8f3bac3ce5a8",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/utils/demand_pkg.py",
+      "bytes": 10849,
+      "sha256": "bed60241c503ed13988e6f659c44ee2d05192111168bea687bf7763a11bc1931",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/models/model.py",
+      "bytes": 6635,
+      "sha256": "ed27e5e360add5fd386caced1a10c8561b4da9b65831445bef84151978d95596",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/models/loss.py",
+      "bytes": 3149,
+      "sha256": "0e9debf9df510a51aa111d5b6b9c5ff3e5f780f3a1183c64e6dadcba2c5aa9c9",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/trainers/train_tc.py",
+      "bytes": 7405,
+      "sha256": "18b1b6d6be8368016af3c5a16530a345738312726737a369deee05380bdd75c6",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/configs/config.py",
+      "bytes": 1541,
+      "sha256": "9d0422a9f2356cb0aea7fef6bbe81777cbbb7031bac56e03805b1b080c842be7",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/data_loader/data_loader.py",
+      "bytes": 6662,
+      "sha256": "411a1c262c6b6d45caeb254452681a091def7a7afe6e7b88dcfebf0ee3873fb2",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/data_loader/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/data_loader/data_parser.py",
+      "bytes": 12055,
+      "sha256": "62a77015bee5eb1347f24fc2f84bbd6d03decb6b2752d75a7ce33fa93fcb5556",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/mains/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/mains/main.py",
+      "bytes": 5087,
+      "sha256": "68ee97044dad7d4e529948f797076f6eaccd16aee38a8ef95e855711889734b5",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/Data/rdc_sales_1320.csv",
+      "bytes": 8324,
+      "sha256": "7b4e79c2705386c3057c1edee7d652b95160a8e802e7352df7f4e794d4599b93",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/Data/vlt_2019_0305.csv",
+      "bytes": 400,
+      "sha256": "089aba08155720b64c47a44d2a68f139f2142f920628532e9f5742081b2883a8",
+      "identical_to_archive": true
+    },
+    {
+      "file": "E2E-model-code/Data/stock.csv",
+      "bytes": 434,
+      "sha256": "a736e471c3f0845d2acf52dfa5362919d65844edd6e8473024718584043995fb",
+      "identical_to_archive": true
+    }
+  ],
+  "preserved_author_file_count": 28,
+  "paper": {
+    "file": "paper/source_paper.pdf",
+    "sha256": "531c0dc74bb4ed8af52ddd9f7996d2312699316ab6fbbc114fe7b2d20d47b3a4"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "<local-project>/.venv/Scripts/python.exe",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "scikit-learn": "1.9.1",
+      "statsmodels": "0.15.0",
+      "torch": "2.14.1",
+      "pypdf": "6.10.0"
+    }
+  },
+  "scripts": {
+    "scripts\\build_report.py": "b86127ba6a5d042bc1fdbfdf1d0f22cfa95f19a210aced9c289abe9853f93b70",
+    "scripts\\provenance.py": "38c080e57da7be3f1e31a7591797634d76b115f2f06d0ae0fb25f97407be3a6a",
+    "scripts\\reproduce_field.py": "9a13dc9d34275eedb2aa3ebe843faf97af0ece5694e54228ae8830a153764c4f",
+    "scripts\\reproduce_offline.py": "689a40a370576ea236ef245141fc7601cc6abaa4fa380b13b6c3a755b9aadf74",
+    "scripts\\train_demo.py": "f7e54212b4edc762ff8c6750f1cb6d653e399bfc326eae5c0960d88b63489a37",
+    "scripts\\verify_source_equivalence.py": "081a79bc6cceed0843223e1c4a4e8fdb7f53d18acb4769279c38dc30b5cd00d5"
+  },
+  "publication_note": "Local archive/executable paths redacted. Scientific output and original-run source hashes preserved; publication adaptations are listed in PUBLICATION_NOTES.md."
+}
